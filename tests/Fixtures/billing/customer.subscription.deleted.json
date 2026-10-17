@@ -1,0 +1,15 @@
+{
+  "id": "evt_test_subscription_deleted",
+  "type": "customer.subscription.deleted",
+  "data": {
+    "object": {
+      "id": "sub_test_fixture",
+      "object": "subscription",
+      "status": "canceled",
+      "metadata": {
+        "team_id": "__TEAM_ID__",
+        "plan": "pro"
+      }
+    }
+  }
+}
